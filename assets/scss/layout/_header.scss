@@ -1,0 +1,41 @@
+header{
+    .header__top{
+        background-color: $dark;
+        color: $light;
+        .header__number__day{
+            display: flex;
+            li{
+                padding: 20px;
+                font-size: 18px;
+            }
+        }
+        .header__socials{
+            display: flex;
+            li{
+                padding: 20px;
+                a{
+                    color: $light;
+                    &:hover{
+                        color: $Orange;
+                    }
+                }
+            }
+            
+        }
+    }
+   @include breakpoint(md){
+    .header__top{
+        .container{
+            .header__top__elements{
+                display: block;
+                .header__number__day{
+                    justify-content: center;
+                }
+                .header__socials{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+   }
+}
