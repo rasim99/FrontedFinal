@@ -23,19 +23,68 @@ header{
             
         }
     }
-   @include breakpoint(md){
-    .header__top{
-        .container{
-            .header__top__elements{
-                display: block;
-                .header__number__day{
-                    justify-content: center;
-                }
-                .header__socials{
-                    justify-content: center;
+}
+
+nav{
+    .nav__logo{
+        padding: 25px 0;
+    }
+    .nav__links{
+        display: flex;
+        li{
+            padding:34px 10px;
+            a{
+                text-decoration: none;
+                color: $dark;
+                font-weight: 500;
+                transition: all .4s;
+                &:hover{
+                 color: $Orange;
                 }
             }
         }
     }
-   }
+    .accordion__menu{
+        display: none;
+    }
+}
+
+// responsibility
+header{
+    @include breakpoint(md){
+        .header__top{
+            .container{
+                .header__top__elements{
+                    display: block;
+                    .header__number__day{
+                        justify-content: center;
+                    }
+                    .header__socials{
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+       }
+}
+nav{
+    @include breakpoint(lg){
+        .nav__links{
+            display: none;
+        }
+        .accordion__menu{
+            display: block;
+            .accordion__links{
+                li{
+                    padding:34px 10px;
+                    a{
+                        text-decoration: none;
+                        color: $dark;
+                        font-weight: 900;
+                        
+                    }
+                }
+            }
+        }
+    }
 }

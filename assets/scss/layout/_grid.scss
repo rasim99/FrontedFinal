@@ -11,6 +11,7 @@
     row-gap: 22px;
 }
 .jspacebetween{
+    display: flex;
 justify-content: space-between;
 }
 [class|="col"] {
