@@ -1,0 +1,63 @@
+#services{
+    margin-top: 100px;
+    .services__title{
+        text-align: center;
+        h2{
+            font-size: 44px;
+            font-weight: 700;
+           
+        }
+        p{
+            padding-block: 20px;
+            line-height: 1.4;
+        }
+    }
+}
+.services__content{
+    margin-top: 80px;
+    .cards{
+        .card{
+            border: 1px solid $lightRed;
+           padding:  68px 22px 60px 22px;
+           transition: .8s;
+           &:hover{
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+           }
+            .card__banner{
+                position: relative;
+                width: 166px;
+                height: 144px;
+                margin:5px auto;
+                background-image: url("/assets/media/images/service_icon_bg_1.png.webp");
+                background-repeat: no-repeat;
+                img{
+                    position: absolute;
+                    top: 26%;
+                    left: 22%;
+                    object-fit: cover;
+                 object-position: center;
+                }
+            }
+            .card__texts{
+                text-align: center;
+                h4{
+                    font-size: 24px;
+                    padding-block: 10px;
+                    font-weight: 600;
+                }
+                p{
+                    color: $gray;
+                    font-weight: 400;
+                    line-height: 2;
+                }
+            }
+        }
+
+        @include breakpoint(sm){
+            .card{
+               padding:  50px 5px;
+            }
+        }
+    }
+}
