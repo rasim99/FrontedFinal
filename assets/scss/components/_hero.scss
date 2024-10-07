@@ -1,0 +1,84 @@
+#hero{
+    overflow: hidden;
+    position: relative;
+    height: 676px;
+    .hero__banner{
+        max-width: 100%;
+        height: 580px;
+        img{
+        width: 100%;
+        height: 100%;
+        }
+    }
+    .hero__dog{
+        width: 760px;
+        height: 596px;
+        position: absolute;
+        top: 80px;
+        right: 80px;
+        z-index: 555;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .hero__title{
+        position: absolute;
+        top: 120px;
+        
+        z-index: 999;
+        h2{
+            font-size: 60px;
+            color: $light;
+        }
+        p{
+            font-size: 20px;
+            line-height: 1.6;
+            padding-block: 20px;
+            width: 38%;
+            color: $light;
+        }
+        a{
+            background-color: $light;
+            color: $red;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 50px;
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            transition: all .5s;
+            &:hover{
+                background-color: $red;
+                color: $light; 
+            }
+        }
+    }
+
+    // responsibility
+    @include breakpoint(xl){
+        .hero__dog{
+            right: -10px;
+        }
+    }
+    @include breakpoint(lg){
+        .hero__dog{
+            display: none;
+        }
+        .hero__title{
+            p{
+                width: 100%;
+            }
+        }
+    }
+    @include breakpoint(sm){
+        .hero__title{
+            top: 100px;
+            left: 10px;
+            h2{
+            font-size: 35px;
+
+            }
+        }
+    }
+}
