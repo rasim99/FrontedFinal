@@ -1,9 +1,73 @@
 #map{
     text-align: center;
     padding: 100px;
+    overflow: hidden;
    iframe{
     width: 100%;
-    height: 500px;
+   }
+
+   @include breakpoint(sm){
+    display: none;
    }
 }
 
+#c__elements{
+    margin-block: 80px;
+    h1{
+        font-size: 26px;
+        font-weight: 600;
+        padding-block: 20px;
+    }
+    form{
+        textarea{
+            resize: vertical;
+            width: 100%;
+            padding-block: 20px;
+            padding-left: 15px;
+             margin-bottom: 20px;
+             outline: cyan;
+             border-radius: 12px 10px 30px 25px;
+             border: 2px dotted cadetblue;
+             background-color: rgb(178, 220, 237);
+        }
+       .inputs__div{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        input{
+            width: 46%;
+           padding: 14px 15px;
+           margin-bottom: 20px;
+          border: 1px solid #bab6b6;
+        }
+       }
+
+       input{
+        width: 100%;
+        padding: 10px 17px;
+        border: 1px solid #2d1010;
+         background-color: greenyellow;
+         border-radius: 11px;
+       }
+        button{
+            margin-block: 30px;
+            display: block;
+            letter-spacing: 3px;
+            padding: 30px;
+            border-radius: 7px;
+            color: $red;
+            border: 1px solid $lightRed;
+        }
+    }
+
+    @include breakpoint(sm){
+        form{
+       .inputs__div{
+         display: block;
+         input{
+            width: 100%;
+         }
+       }
+        }
+       }
+}
