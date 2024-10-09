@@ -36,6 +36,12 @@
             @content;
         }
     }
+  
+    @else if $point == xsm {
+        @media (max-width: 390px) {
+            @content;
+        }
+    }
 
     @else if $point == xs {
         @media (max-width: 0px) {
