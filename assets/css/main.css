@@ -1040,6 +1040,7 @@ footer .bottom h3 a {
 
 #c__elements {
   margin-block: 80px;
+  background-color: rgb(249, 245, 210);
 }
 #c__elements h1 {
   font-size: 26px;
@@ -1084,6 +1085,10 @@ footer .bottom h3 a {
   color: red;
   border: 1px solid #ffc5c2;
 }
+#c__elements form button:hover {
+  color: rgb(255, 255, 255);
+  background-color: red;
+}
 @media (max-width: 576px) {
   #c__elements form .inputs__div {
     display: block;
@@ -1091,4 +1096,24 @@ footer .bottom h3 a {
   #c__elements form .inputs__div input {
     width: 100%;
   }
+}
+
+.contact__icons {
+  margin-top: 55px;
+}
+.contact__icons ul li {
+  display: flex;
+}
+.contact__icons ul li i {
+  font-size: 26px;
+  padding: 18px 14px;
+  color: #909092;
+}
+.contact__icons ul li p {
+  padding: 19px 10px;
+}
+.contact__icons ul li p span {
+  display: inline-block;
+  color: #bab6b6;
+  padding-block: 6px;
 }/*# sourceMappingURL=main.css.map */
