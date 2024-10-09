@@ -1,0 +1,44 @@
+footer{
+    margin-top: 100px;
+    p{
+        font-size: 25px;
+        padding-block: 20px;
+        font-weight: 500;
+    }
+    #footer__logo{
+        margin-top: 20px;
+    }
+    ul{
+        li{
+            padding: 20px 0;
+            color: $gray;
+            line-height: 1.7;
+            a{
+            color: $gray;
+            text-decoration: none;
+            &:hover{
+                color: $Orange;
+            }
+           
+            }
+            #footer__socials{
+                display: flex;
+                column-gap: 10px;
+            }
+           
+        }
+    }
+
+    .bottom{
+        h3{
+            color: $gray;
+            word-spacing: 2px;
+            margin-block: 30px;
+            a{
+                text-decoration: none;
+                color: #007BFF;
+
+            }
+        }
+    }
+}
