@@ -1,0 +1,38 @@
+#hero__us{
+    position: relative;
+    .hero__banner{
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    h1{
+        position: absolute;
+        font-size: 64px;
+        font-weight: 700;
+        top: 30%;
+        left: 38%;
+        color: $light;
+    }
+}
+
+// responsibility
+#hero__us{
+    @include breakpoint(lg){
+        h1{
+            font-size: 56px;
+            top: 25%;
+            left: 30%;
+        }
+    }
+
+    @include breakpoint(sm){
+        h1{
+            font-size: 35px;
+            top: 22%;
+            left: 28%;
+        }
+
+    }
+}

@@ -579,6 +579,40 @@ table {
   }
 }
 
+#hero__us {
+  position: relative;
+}
+#hero__us .hero__banner {
+  overflow: hidden;
+}
+#hero__us .hero__banner img {
+  width: 100%;
+  height: 100%;
+}
+#hero__us h1 {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 700;
+  top: 30%;
+  left: 38%;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 992px) {
+  #hero__us h1 {
+    font-size: 56px;
+    top: 25%;
+    left: 30%;
+  }
+}
+@media (max-width: 576px) {
+  #hero__us h1 {
+    font-size: 35px;
+    top: 22%;
+    left: 28%;
+  }
+}
+
 /* container */
 .container {
   width: 80%;
