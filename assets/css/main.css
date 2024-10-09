@@ -405,9 +405,6 @@ table {
   }
 }
 
-#ourteam {
-  position: relative;
-}
 #ourteam .team__content {
   background-color: white;
   box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
@@ -439,6 +436,23 @@ table {
   object-fit: cover;
 }
 
+.ourteam__title {
+  width: 65%;
+  margin: 80px auto;
+  text-align: center;
+}
+.ourteam__title p {
+  font-weight: 700;
+  font-size: 60px;
+}
+.ourteam__title span {
+  display: inline-block;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #909092;
+}
+
 @media (max-width: 1200px) {
   #ourteam .team__content {
     transform: translate(24%, -51%);
@@ -466,6 +480,102 @@ table {
   #ourteam .team__content {
     transform: translate(32%, -51%);
     padding: 4px 12px 5px 12px;
+  }
+}
+
+#contact__anipat {
+  position: relative;
+  margin-top: 100px;
+}
+#contact__anipat .banner {
+  overflow: hidden;
+  height: 400px;
+}
+#contact__anipat .banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#contact__anipat .anipat__title {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 120px;
+  left: 400px;
+  text-align: center;
+  width: 50%;
+}
+#contact__anipat .anipat__title h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#contact__anipat .anipat__title p {
+  font-size: 22px;
+  padding: 20px;
+  line-height: 1.5;
+}
+#contact__anipat .anipat__title .title__items a {
+  background-color: rgb(255, 255, 255);
+  color: red;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+#contact__anipat .anipat__title .title__items a:hover {
+  background-color: red;
+  color: rgb(255, 255, 255);
+}
+#contact__anipat .anipat__title .title__items span {
+  font-size: 20px;
+  padding-inline: 30px;
+}
+
+@media (max-width: 1200px) {
+  #contact__anipat .anipat__title {
+    top: 100px;
+    left: 300px;
+  }
+}
+@media (max-width: 992px) {
+  #contact__anipat .anipat__title {
+    top: 56px;
+    left: 250px;
+  }
+}
+@media (max-width: 768px) {
+  #contact__anipat .anipat__title {
+    width: 70%;
+    top: 100px;
+    left: 110px;
+  }
+  #contact__anipat .anipat__title h3 {
+    font-size: 26px;
+  }
+  #contact__anipat .anipat__title p {
+    font-size: 20px;
+    padding: 18px;
+  }
+}
+@media (max-width: 576px) {
+  #contact__anipat .anipat__title {
+    width: 84%;
+    top: 40px;
+    left: 35px;
+  }
+  #contact__anipat .anipat__title h3 {
+    font-size: 20px;
+  }
+  #contact__anipat .anipat__title p {
+    font-size: 20px;
+    padding: 15px;
+  }
+  #contact__anipat .anipat__title .title__items span {
+    margin-top: 10px;
+    display: block;
   }
 }
 

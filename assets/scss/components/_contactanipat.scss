@@ -1,0 +1,114 @@
+#contact__anipat{
+    position: relative;
+    margin-top: 100px;
+    .banner{
+        overflow: hidden;
+        height: 400px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .anipat__title{
+        position: absolute;
+        color: $light;
+        top: 120px;
+         left: 400px;
+        text-align: center;
+        width: 50%;
+ 
+        h3{
+            font-size: 40px;
+            font-weight: 700;
+    
+        }
+        p{
+            font-size: 22px;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .title__items{
+            a{
+                background-color: $light;
+                color: $red;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 50px;
+                text-align: center;
+                padding: 20px;
+                font-size: 18px;
+                transition: all .5s;
+                &:hover{
+                    background-color: $red;
+                    color: $light; 
+                }
+            
+            }
+            span{
+                font-size: 20px;
+                padding-inline: 30px;
+            }
+        }
+    }
+    
+}
+
+// responsibility
+#contact__anipat{
+    @include breakpoint(xl){
+        .anipat__title{
+            top: 100px;
+             left: 300px;     
+        }
+
+    }
+
+    @include breakpoint(lg){
+        .anipat__title{
+            top: 56px;
+             left: 250px;     
+        }
+
+    }
+
+    @include breakpoint(md){
+        .anipat__title{
+            width: 70%;
+            top: 100px;
+             left: 110px;     
+             h3{
+                 font-size: 26px;
+             }
+            p{
+                font-size: 20px;
+                padding: 18px;
+            }
+        }
+
+    }
+
+    @include breakpoint(sm){
+        .anipat__title{
+            width: 84%;
+            top: 40px;
+             left: 35px;     
+             h3{
+                 font-size: 20px;
+             }
+            p{
+                font-size: 20px;
+                padding: 15px;
+            }
+            .title__items{
+                span{
+                    margin-top: 10px;
+                    display: block;
+                }
+            }
+        }
+
+    }
+}
