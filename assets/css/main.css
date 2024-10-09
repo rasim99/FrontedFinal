@@ -337,6 +337,74 @@ table {
   }
 }
 
+#adapthelp {
+  margin-top: 160px;
+}
+#adapthelp .adapthelp__title h2 {
+  font-size: 60px;
+  color: rgb(3, 3, 3);
+  font-weight: 300;
+}
+#adapthelp .adapthelp__title h2 strong {
+  font-weight: 700;
+}
+#adapthelp .adapthelp__title p {
+  font-size: 20px;
+  line-height: 1.6;
+  padding-block: 20px;
+  color: rgb(3, 3, 3);
+}
+#adapthelp .adapthelp__title a {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  margin-block: 30px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+#adapthelp .adapthelp__cards {
+  margin-left: 40px;
+  transform: translateY(-150px);
+}
+#adapthelp .adapthelp__cards .card {
+  margin-bottom: 30px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+  text-align: center;
+}
+#adapthelp .adapthelp__cards .card .img__wrapper {
+  padding-block: 30px;
+}
+#adapthelp .adapthelp__cards .card h2 {
+  font-weight: 900;
+  font-size: 60px;
+}
+#adapthelp .adapthelp__cards .card p {
+  color: #808080;
+  padding-top: 15px;
+  padding-bottom: 45px;
+}
+#adapthelp .adapthelp__cards .adapthelp__first {
+  transform: translateY(50%);
+}
+
+@media (max-width: 992px) {
+  #adapthelp .adapthelp__cards {
+    margin-left: 0;
+    transform: translateY(10px);
+  }
+}
+@media (max-width: 768px) {
+  #adapthelp .adapthelp__cards .adapthelp__first {
+    transform: translateY(0);
+  }
+}
+
 /* container */
 .container {
   width: 80%;
