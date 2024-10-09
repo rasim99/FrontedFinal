@@ -1022,4 +1022,13 @@ footer .bottom h3 {
 footer .bottom h3 a {
   text-decoration: none;
   color: #007BFF;
+}
+
+#map {
+  text-align: center;
+  padding: 100px;
+}
+#map iframe {
+  width: 100%;
+  height: 500px;
 }/*# sourceMappingURL=main.css.map */
