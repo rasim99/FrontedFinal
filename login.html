@@ -14,8 +14,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- main css link -->
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Register</title>
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9771/9771679.png" type="image/png">
+    <title>Login</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/021/919/677/non_2x/login-icon-in-trendy-flat-style-isolated-on-white-background-approach-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-flat-style-for-graphic-design-vector.jpg" type="image/png">
+
 </head>
 
 <body>
@@ -103,22 +104,21 @@
             <div class="hero__banner">
                 <img src="./assets/media/images/bradcam.png.webp" alt="hero">
             </div>
-            <h1>Register</h1>
+            <h1>Login</h1>
         </section>
 
-       <!-- register form section -->
-        <section class="mt-5 mb-5" >
+       <!-- login section -->
+        <section class="mt-5">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-6">
-                        <form id="register-form">
-                            <h2 style="font-size: 30px;color: rgb(151, 6, 151);" class="lead text-center mb-4">Register Form</h2>
-                            <input id="username" type="text" class="form-control mb-2" placeholder="username" required>
-                            <input id="email" type="email" class="form-control mb-2" placeholder="email" required>
-                            <input id="profileImg" type="url" class="form-control mb-2" placeholder="profile img" required>
-                            <input id="password" type="password" class="form-control mb-2" placeholder="password" required>
-                            <input id="confirm-password" type="password" class="form-control mb-2" placeholder="confirm password" required>
-                            <button type="submit" class="btn btn-success d-block mx-auto w-100">Sign Up</button>
+                        <form id="login-form">
+                            <h3 style="font-size: 33px; color: rgb(13, 125, 133);" class="lead text-center mb-4">Login</h3>
+                            <input id="username" type="text" class="form-control mb-2" placeholder="username"
+                                required>
+                            <input id="password" type="password" class="form-control mb-2" placeholder="password"
+                                required>
+                            <button type="submit" class="btn btn-info d-block mx-auto w-100">Login</button>
                         </form>
                     </div>
                 </div>
@@ -209,7 +209,7 @@
      <!-- sweet alert script -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
      <!-- register js  -->
-     <script type="module" src="./assets/js/register.js"></script>
+     <script type="module" src="./assets/js/login.js"></script>
 </body>
 
 </html>
