@@ -1,20 +1,21 @@
 {
   "blogs": [
     {
-      "id": 1,
-      "imgUrl": "https://preview.colorlib.com/theme/anipat/img/blog/single_blog_1.png",
-      "createDate": "2020-01-15",
+      "id": "1",
+      "imgUrl": "./assets/media/images/single_blog_1.png.webp",
+      "createDate": "2021-05-21",
       "title": "Google inks pact for new 35-storey office",
       "details": "That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.",
       "countOfComment": 3,
       "tags": [
         "Travel",
         "Lifestyle"
-      ]
+      ],
+      "updateDate": "2024-10-13T23:08:39.790Z"
     },
     {
-      "id": 2,
-      "imgUrl": "https://preview.colorlib.com/theme/anipat/img/blog/single_blog_2.png",
+      "id": "2",
+      "imgUrl": "./assets/media/images/single_blog_2.png.webp",
       "createDate": "2021-05-21",
       "title": "Google inks pact for new 35-storey office",
       "details": "That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.",
@@ -25,8 +26,8 @@
       ]
     },
     {
-      "id": 3,
-      "imgUrl": "https://preview.colorlib.com/theme/anipat/img/blog/single_blog_3.png",
+      "id": "3",
+      "imgUrl": "./assets/media/images/single_blog_3.png.webp",
       "createDate": "2021-10-10",
       "title": "Google inks pact for new 35-storey office",
       "details": "That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.",
@@ -37,8 +38,8 @@
       ]
     },
     {
-      "id": 4,
-      "imgUrl": "https://preview.colorlib.com/theme/anipat/img/blog/single_blog_4.png",
+      "id": "4",
+      "imgUrl": "./assets/media/images/single_blog_4.png.webp",
       "createDate": "2024-04-04",
       "title": "Google inks pact for new 35-storey office",
       "details": "That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.",
@@ -49,8 +50,8 @@
       ]
     },
     {
-      "id": 5,
-      "imgUrl": "https://preview.colorlib.com/theme/anipat/img/blog/single_blog_5.png",
+      "id": "5",
+      "imgUrl": "./assets/media/images/single_blog_5.png.webp",
       "createDate": "2024-09-30",
       "title": "Google inks pact for new 35-storey office",
       "details": "That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.",
@@ -63,20 +64,20 @@
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "selena",
       "email": "s_gomez@gmail.com",
       "profImg": "https://cdn.britannica.com/16/262416-050-7E966413/selena-gomez-attends-the-emilia-perez-photocall-at-the-77th-annual-cannes-film-festival-2024.jpg?w=400&h=300&c=crop",
       "password": "Selish123!"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "irene",
       "email": "irene_kim@gmail.com",
       "profImg": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Irene_Kim_TASAKI_September_2024_%281%29.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "brus",
       "email": "brusli@gmail.com",
       "profImg": "https://i.pinimg.com/474x/7e/db/a2/7edba2158ac8093cfe57680866b2a639.jpg"

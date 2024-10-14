@@ -59,3 +59,15 @@ export async function checkUser() {
   if (user.length > 0) return user[0];
   else return false;
 }
+
+// Update data by id
+export async function updateDataById(url, endpoint, id, data) {
+  try {
+      const response = await axios.put(`${url}${endpoint}/${id}`, data);
+      console.log("STATUS CODE: ", response.status);
+      return response.data; // Return the updated data
+  } catch (error) {
+      console.error(error.message);
+      throw error; // Optional: rethrow the error if you want to handle it elsewhere
+  }
+}

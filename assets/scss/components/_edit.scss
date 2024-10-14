@@ -1,0 +1,48 @@
+#edit__main{
+    background-image: url("https://img.freepik.com/free-photo/3d-dark-grunge-display-background-with-smoky-atmosphere_1048-16218.jpg");
+    background-position: center;
+}
+#editing{
+    position: relative;
+   form{
+      padding-bottom: 40px;
+        label{
+            padding: 20px;
+            font-size: 25px;
+            font-family: monospace;
+            color: $lightRed;
+        }
+        input{
+            display: block;
+            padding: 20px;
+            border:2px ridge $red;
+            border-radius: 5px;
+            outline: none;
+            
+        }
+        button{
+            padding:10px 70px;
+            border-radius: 26px;
+            background-color: $gray;
+            color: rgb(32, 17, 39);
+            border: none;
+            &:hover{
+                background-color: $red;
+                color: $light;
+            }
+        }
+        
+    }
+    .x{
+        position: absolute;
+        top:100px;
+        left: 100px;
+        color: $light;
+        text-decoration: none;
+        span{
+            display: inline-block;
+            font-size: 28px;
+            color: $red;
+        }
+    }
+}

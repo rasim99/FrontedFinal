@@ -1,0 +1,43 @@
+#cards{
+    .col-12{
+
+        .card{
+            margin-block: 224px;
+            .card-body{
+                padding-bottom: 40px;
+                h5{
+                    padding:10px; 
+                    font-size:26px;
+                    font-family: cursive;
+                    color: rgb(44, 4, 44);
+                }
+                a{
+                    padding:10px;
+                    font-size:22px;
+                      text-decoration:none;
+                       background-color: #2395ff;
+                        border-radius:10px;
+                        color: $light;
+                        &:hover{
+                            color: #2395ff;
+                            background-color: $dark;
+                        }
+                }
+                .detail__details{
+                    padding:10px; 
+                    font-size:20px; 
+                    line-height:1.4;
+                    color:darkslateblue;
+                }
+                .detail__count{
+                padding:10px; 
+                font-family:Impact;
+                font-size:40px; 
+                color:rgb(139, 86, 0); 
+                margin-bottom:20px
+                
+                }
+            }
+        }
+    }
+}

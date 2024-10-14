@@ -43,6 +43,12 @@ nav{
                 }
             }
         }
+        .sign-out{
+            border: 1px solid red;
+            padding: 6px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
     }
     .accordion__menu{
         display: none;

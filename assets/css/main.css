@@ -613,6 +613,92 @@ table {
   }
 }
 
+#cards .col-12 .card {
+  margin-block: 224px;
+}
+#cards .col-12 .card .card-body {
+  padding-bottom: 40px;
+}
+#cards .col-12 .card .card-body h5 {
+  padding: 10px;
+  font-size: 26px;
+  font-family: cursive;
+  color: rgb(44, 4, 44);
+}
+#cards .col-12 .card .card-body a {
+  padding: 10px;
+  font-size: 22px;
+  text-decoration: none;
+  background-color: #2395ff;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+#cards .col-12 .card .card-body a:hover {
+  color: #2395ff;
+  background-color: rgb(3, 3, 3);
+}
+#cards .col-12 .card .card-body .detail__details {
+  padding: 10px;
+  font-size: 20px;
+  line-height: 1.4;
+  color: darkslateblue;
+}
+#cards .col-12 .card .card-body .detail__count {
+  padding: 10px;
+  font-family: Impact;
+  font-size: 40px;
+  color: rgb(139, 86, 0);
+  margin-bottom: 20px;
+}
+
+#edit__main {
+  background-image: url("https://img.freepik.com/free-photo/3d-dark-grunge-display-background-with-smoky-atmosphere_1048-16218.jpg");
+  background-position: center;
+}
+
+#editing {
+  position: relative;
+}
+#editing form {
+  padding-bottom: 40px;
+}
+#editing form label {
+  padding: 20px;
+  font-size: 25px;
+  font-family: monospace;
+  color: #ffc5c2;
+}
+#editing form input {
+  display: block;
+  padding: 20px;
+  border: 2px ridge red;
+  border-radius: 5px;
+  outline: none;
+}
+#editing form button {
+  padding: 10px 70px;
+  border-radius: 26px;
+  background-color: #909092;
+  color: rgb(32, 17, 39);
+  border: none;
+}
+#editing form button:hover {
+  background-color: red;
+  color: rgb(255, 255, 255);
+}
+#editing .x {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#editing .x span {
+  display: inline-block;
+  font-size: 28px;
+  color: red;
+}
+
 /* container */
 .container {
   width: 80%;
@@ -953,6 +1039,12 @@ nav .nav__links li a {
 }
 nav .nav__links li a:hover {
   color: #fd7e14;
+}
+nav .nav__links .sign-out {
+  border: 1px solid red;
+  padding: 6px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 nav .accordion__menu {
   display: none;
@@ -1462,4 +1554,63 @@ footer .bottom h3 a {
   .instagram .elements {
     justify-content: space-around;
   }
+}
+
+#wishlist__items {
+  text-align: center;
+}
+#wishlist__items h1 {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(150, 193, 87);
+  font-weight: 900;
+  font-family: cursive;
+}
+#wishlist__items .wishlist-row .card .img-wrapper {
+  overflow: hidden;
+  height: 400px;
+}
+#wishlist__items .wishlist-row .card .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#wishlist__items .wishlist-row .card .card-body {
+  padding-block: 50px;
+  padding-inline: 20px;
+}
+#wishlist__items .wishlist-row .card .card-body h2 {
+  font-size: 22px;
+  color: #fd7e14;
+}
+#wishlist__items .wishlist-row .card .card-body p {
+  font-size: 25px;
+  color: rgb(3, 3, 3);
+  font-family: monospace;
+}
+#wishlist__items .wishlist-row .card .card-body button {
+  padding: 5px 18px;
+  margin-top: 20px;
+}
+#wishlist__items a {
+  text-decoration: none;
+  border: 1px groove rgb(29, 152, 29);
+  display: inline-block;
+  padding: 10px 26px;
+  margin-top: 50px;
+  border-radius: 25px;
+}
+#wishlist__items a:hover {
+  background-color: rgb(68, 205, 0);
+  color: rgb(253, 200, 25);
+}
+
+.wish {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 10px 20px;
+  border: 1px solid salmon;
+  border-radius: 20px;
+  transform: translateY(-44px);
 }/*# sourceMappingURL=main.css.map */
